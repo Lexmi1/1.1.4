@@ -2,14 +2,9 @@ package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
-import org.hibernate.ObjectNotFoundException;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.exception.ConstraintViolationException;
 
-import javax.transaction.Transactional;
-import javax.transaction.TransactionalException;
 import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
