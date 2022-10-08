@@ -11,6 +11,7 @@ public class Main {
         userService.saveUser("Sasha", "Strukov", (byte) 21);
         userService.saveUser("Kris", "Rogozina", (byte) 21);
         userService.saveUser("Tanya", "Tselueva", (byte) 45);
+        //получить после добавления сразу как Алишев говорил
 
         userService.getAllUsers().stream().forEach(System.out::println);
 
